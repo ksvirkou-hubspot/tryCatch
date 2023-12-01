@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "getDeal": "ts-node getDeal.ts",
+    "getDeals": "ts-node getDeals.ts",
+    "updateDeal": "ts-node updateDeal.ts",
+    "filter": "ts-node filter.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.4.4",
+    "@hubspot/api-client": "^8.4.2"
+  }
+}
